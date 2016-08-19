@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Containers>
+  <Date>2016-08-18</Date>
+  <Beta>False</Beta>
+  <Category></Category>
+  <Name>Ghost</Name>
+  <Project>https://ghost.org/</Project>
+  <Changes>
+[font size=3]2016.08.18[/font]
+- Initial Release
+  </Changes>
+  <Overview>
+    A publishing platform for professional bloggers
+  </Overview>
+  <Description>
+
+  </Description>
+  <Registry>https://hub.docker.com/_/ghost/</Registry>
+  <GitHub>https://github.com/docker-library/ghost</GitHub>
+  <Repository>docker-library/ghost</Repository>
+  <Support></Support>
+  <BindTime>true</BindTime>
+  <Privileged>false</Privileged>
+  <Networking>
+    <Mode>bridge</Mode>
+    <Publish>
+      <Port>
+        <HostPort>2368</HostPort>
+        <ContainerPort>2368</ContainerPort>
+        <Protocol>tcp</Protocol>
+      </Port>
+    <Publish/>
+  </Networking>
+  <Environment/>
+  <Data>
+
+  </Data>
+  <WebUI>http://[IP]:[PORT:2368]</WebUI>
+  <Banner></Banner>
+  <Icon></Icon>
+</Containers>
